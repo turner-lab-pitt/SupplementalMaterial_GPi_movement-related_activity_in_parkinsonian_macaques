@@ -1,0 +1,17 @@
+﻿RESOURCE TYPE,RESOURCE NAME,SOURCE,IDENTIFIER,NEW/REUSE,ADDITIONAL INFORMATION
+Dataset,Raw and processed data (electrophysiology and behavior),DANDI,https://doi.org/10.48324/dandi.000947/0.240510.2211,new,Raw data from all electyrophysiological recordings and all unit data from spike sorting
+Dataset,Resource data to produce figures,Zenodo,https://doi.org/10.5281/zenodo.15276457,new,"Raw tabular data used to produce main and supplemental figures, stored in the SourceData directory"
+Dataset,Resource data used for outlier detection,Zenodo,https://doi.org/10.5281/zenodo.11077188,reuse,Dataset used to identify the outlier unit activity
+Software/code,MatLab R2024A,MathWorks,https://www.mathworks.com RRID: SCR_001622,reuse,
+Software/code,MatLab code used to analyze and produce figures,Zenodo,https://doi.org/10.5281/zenodo.15276457,new,"All MatLab codes used for analyses, preparation of tabular data, and preparation of figures. Stored in the Code directory"
+Software/code,MatLab code used for outlier detection,Zenodo,https://doi.org/10.5281/zenodo.11118235 ,reuse,MatLab code used for outlier detection
+Software/code,LabView,National Instruments,https://www.ni.com RRID: SCR_014325,reuse,
+Software/code,LabView code to run the behavioral task,Zenodo,https://doi.org/10.5281/zenodo.11397909,reuse,
+Software/code,Offline Sorter,Plexon,https://plexon.com/ RRID:SCR_000012,reuse,
+Protocol,Surgical procedures (implantation of hardwares),protocols.io,https://dx.doi.org/10.17504/protocols.io.5jyl8p9yrg2w/v1,new,
+Protocol,Surgical procedures (craniotomy),protocols.io,https://dx.doi.org/10.17504/protocols.io.n92ldmz48l5b/v1,new,
+Protocol,Recording chamber maintenance,protocols.io,https://dx.doi.org/10.17504/protocols.io.5jyl8ppm9g2w/v1,new,
+Protocol,Electrophysiological recording,protocols.io,https://dx.doi.org/10.17504/protocols.io.bp2l6xx91lqe/v1,new,
+Protocol,MPTP administration,protocols.io,https://dx.doi.org/10.17504/protocols.io.dm6gp3zw5vzp/v1,new,
+Protocol,Immunohistological staining for tyrosine hydroxylase,protocols.io,https://dx.doi.org/10.17504/protocols.io.4r3l2q1dql1y/v1,new,
+Antibody,Rabbit anti-tyrosine hydroxilase,Novus,"Cat# NB 300-109, RRID: AB_350437",reuse,Dilution: 1:1000
